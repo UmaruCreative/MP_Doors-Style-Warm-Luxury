@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1"/>
+<title>MP Doors | Composite Patio &amp; Entry Doors | MasterPiece Series</title>
+<meta name="description" content="MP Doors composite patio and entry doors. MasterPiece Series, Energy Star certified across all 4 U.S. climate zones. 3,600+ homeowners served."/>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css"/>
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+<style>
+/* ═══════════════════════════════════════════
+   VARIABLES & RESET
+═══════════════════════════════════════════ */
+:root {
+  --primary:       #F29430;
+  --primary-dark:  #C47520;
+  --primary-deep:  #8B5200;
+  --bg-dark:       #1A0800;
+  --bg-dark2:      #251000;
+  --bg-dark3:      #2E1500;
+  --text-dark:     #1A0800;
+  --text-mid:      #5A3010;
+  --text-light:    rgba(255,255,255,0.75);
+  --white:         #ffffff;
+  --grey-light:    #FDF8F2;
+  --grey-border:   #F0E4D4;
+  --accent:        #FF9F50;
+  --radius-sm:     8px;
+  --radius-md:     16px;
+  --radius-lg:     24px;
+  --shadow:        0 4px 30px rgba(242,148,48,0.15);
+  --transition:    0.3s ease;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--text-dark);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+img { max-width: 100%; display: block; }
+address { font-style: normal; }
+
+/* ═══════════════════════════════════════════
+   TYPOGRAPHY
+═══════════════════════════════════════════ */
+.font-serif { font-family: 'Merriweather', serif; }
+.font-open  { font-family: 'Open Sans', sans-serif; }
+
+h1,h2,h3,h4,h5 { line-height: 1.2; }
+
+.sec-title   { font-size: clamp(2rem,   4vw, 3.5rem); font-family:'Merriweather',serif; font-weight:700; }
+.page-title  { font-size: clamp(1.6rem, 3.5vw, 2.8rem); font-family:'Merriweather',serif; font-weight:700; }
+.font48r     { font-size: clamp(1.6rem, 3vw, 3rem); font-family:'Merriweather',serif; font-weight:700; }
+.font40r     { font-size: clamp(1.4rem, 2.8vw, 2.5rem); font-family:'Merriweather',serif; font-weight:700; }
+.font36r     { font-size: clamp(1.3rem, 2.5vw, 2.25rem); font-family:'Merriweather',serif; font-weight:700; }
+.font24r     { font-size: clamp(1rem, 2vw, 1.5rem); }
+.font20r     { font-size: clamp(0.95rem, 1.5vw, 1.25rem); }
+.font20sb    { font-size: clamp(0.95rem, 1.5vw, 1.25rem); font-weight:600; }
+.font18r     { font-size: clamp(0.875rem, 1.2vw, 1.125rem); }
+.font12r     { font-size: 0.75rem; }
+
+.white       { color: var(--white) !important; }
+.txt-primary { color: var(--text-dark) !important; }
+.txt-lgrey   { color: rgba(255,255,255,0.75); }
+.txt-orange  { color: var(--primary); }
+.secondary2  { color: var(--text-light); }
+.centered    { text-align: center; }
+.fw-400      { font-weight: 400; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT
+═══════════════════════════════════════════ */
+.container    { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+.container-sm { max-width: 1100px; margin: 0 auto; padding: 0 40px; }
+.comm-section { padding: 100px 0; }
+.comm-section.pb0 { padding-bottom: 0; }
+.comm-section.pt0 { padding-top: 0; }
+.relative     { position: relative; }
+.mb-15        { margin-bottom: 15px; }
+.mb-20        { margin-bottom: 20px; }
+.mb-30        { margin-bottom: 30px; }
+.mb-40        { margin-bottom: 40px; }
+
+.bg-orange    { background: var(--bg-dark); }
+.bg-warm      { background: var(--bg-dark2); }
+.bg-light     { background: var(--grey-light); }
+
+.comm-grid { display: grid; gap: 30px; }
+.g-3       { grid-template-columns: repeat(3, 1fr); }
+.g-4       { grid-template-columns: repeat(4, 1fr); }
+.gp-50     { gap: 50px; }
+
+/* ═══════════════════════════════════════════
+   BUTTONS
+═══════════════════════════════════════════ */
+.button {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 32px; border-radius: 50px; font-weight: 700;
+  font-size: 0.9rem; letter-spacing: 0.02em; transition: var(--transition);
+  cursor: pointer; border: 2px solid transparent;
+}
+.button.orange {
+  background: var(--primary); color: var(--white);
+  border-color: var(--primary);
+}
+.button.orange:hover { background: var(--primary-dark); border-color: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(242,148,48,0.35); }
+
+.button.white {
+  background: var(--white); color: var(--bg-dark) !important;
+  border-color: var(--white);
+}
+.button.white:hover { background: transparent; color: var(--white) !important; transform: translateY(-2px); }
+
+.button.outline {
+  background: transparent; color: var(--primary);
+  border-color: var(--primary);
+}
+.button.outline:hover { background: var(--primary); color: var(--white); }
+
+/* ═══════════════════════════════════════════
+   HEADER / NAV
+═══════════════════════════════════════════ */
+.header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: var(--white); box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+  transition: var(--transition);
+}
+.header.scrolled { box-shadow: 0 4px 30px rgba(0,0,0,0.12); }
+
+.header-box { padding: 0; }
+.header-box .container {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 72px;
+}
+
+/* Logo */
+.logo-wrap { display: flex; align-items: center; gap: 10px; }
+.logo-icon {
+  width: 40px; height: 40px; background: var(--primary);
+  border-radius: 10px; display: flex; align-items: center; justify-content: center;
+}
+.logo-icon svg { width: 24px; height: 24px; fill: white; }
+.logo-text { font-family:'Merriweather',serif; font-weight:700; font-size:1.3rem; color: var(--text-dark); }
+.logo-text span { color: var(--primary); }
+
+/* Nav */
+.header-list { display: flex; align-items: center; gap: 8px; }
+.header-list > li { position: relative; }
+.header-list > li > a {
+  display: flex; align-items: center; gap: 4px;
+  padding: 8px 16px; border-radius: 6px; font-size: 0.9rem;
+  font-weight: 600; color: var(--text-dark); transition: var(--transition);
+}
+.header-list > li > a:hover { color: var(--primary); background: rgba(242,148,48,0.06); }
+.header-list > li > a .arrow-icon { width: 14px; height: 14px; transition: var(--transition); }
+
+.drop-menu:hover > a .arrow-icon { transform: rotate(180deg); color: var(--primary); }
+
+/* Dropdown */
+.drop-list-wrap {
+  position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+  background: var(--white); border-radius: var(--radius-md); min-width: 320px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.12); opacity: 0; visibility: hidden;
+  transition: var(--transition); pointer-events: none;
+  border: 1px solid var(--grey-border);
+}
+.drop-menu:hover .drop-list-wrap { opacity: 1; visibility: visible; pointer-events: all; }
+.drop-list-container { padding: 20px; }
+.drop-list-container > p { font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.1em; color:#999; margin-bottom:12px; }
+
+.menu-cards-wrap { display: grid; gap: 8px; }
+.menu-card {
+  display: flex; align-items: center; gap: 12px; padding: 12px;
+  border-radius: var(--radius-sm); transition: var(--transition);
+}
+.menu-card:hover { background: rgba(242,148,48,0.06); }
+.menu-icon-box { display: flex; align-items: center; gap: 8px; }
+.menu-icon-wrap {
+  width: 36px; height: 36px; background: rgba(242,148,48,0.1);
+  border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.menu-icon-wrap svg { width: 18px; height: 18px; fill: var(--primary); }
+.menu-card-txt h3 { font-size: 0.875rem; font-weight: 700; color: var(--text-dark); }
+.menu-card-txt p { font-size: 0.78rem; color: #777; margin-top: 2px; }
+
+.menu-field-wrap { display: grid; gap: 4px; }
+.menu-field {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 12px; border-radius: var(--radius-sm); transition: var(--transition);
+}
+.menu-field:hover { background: rgba(242,148,48,0.06); }
+.menu-field p { font-size: 0.875rem; font-weight: 600; }
+.menu-field .arrow-icon { width: 14px; height: 14px; color: #999; }
+
+/* CTA area in nav */
+.nav-cta { display: flex; align-items: center; gap: 12px; }
+.cta-btn {
+  display: inline-flex; align-items: center; padding: 10px 24px;
+  background: var(--primary); color: var(--white); border-radius: 50px;
+  font-weight: 700; font-size: 0.875rem; transition: var(--transition);
+}
+.cta-btn:hover { background: var(--primary-dark); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(242,148,48,0.35); }
+
+/* Hamburger */
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+.hamburger span { display: block; width: 24px; height: 2px; background: var(--text-dark); border-radius: 2px; transition: var(--transition); }
+
+/* ═══════════════════════════════════════════
+   HERO SECTION
+═══════════════════════════════════════════ */
+.head-section {
+  position: relative; min-height: 100vh;
+  display: flex; align-items: center; overflow: hidden;
+  background: var(--bg-dark);
+  padding-top: 72px;
+}
+
+/* Animated gradient background */
+.header-bg {
+  position: absolute; inset: 0; z-index: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 70% 50%, rgba(242,148,48,0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 85% 30%, rgba(255,159,80,0.15) 0%, transparent 50%),
+    var(--bg-dark);
+}
+.header-bg::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(270deg, rgba(26,8,0,0) 0%, rgba(26,8,0,0.92) 55%);
+}
+
+/* Floating shapes */
+.hero-shapes { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+.hero-shape {
+  position: absolute; border-radius: 50%;
+  background: radial-gradient(circle, rgba(242,148,48,0.25), rgba(242,148,48,0));
+  animation: floatShape 8s ease-in-out infinite;
+}
+.hero-shape:nth-child(1) { width: 500px; height: 500px; right: 5%; top: 10%; animation-delay: 0s; }
+.hero-shape:nth-child(2) { width: 300px; height: 300px; right: 20%; top: 50%; animation-delay: 2s; animation-duration: 10s; }
+.hero-shape:nth-child(3) { width: 200px; height: 200px; right: 8%; bottom: 15%; animation-delay: 4s; animation-duration: 7s; }
+
+@keyframes floatShape {
+  0%,100% { transform: translate(0,0) scale(1); }
+  33% { transform: translate(-20px, -30px) scale(1.05); }
+  66% { transform: translate(15px, 20px) scale(0.95); }
+}
+
+/* Hex grid decoration */
+.hero-hex-grid {
+  position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+  width: 45%; height: 100%; z-index: 0; opacity: 0.35;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cpath d='M28 66L0 50V18L28 2l28 16v32zM28 34L0 18V-14L28-30l28 16v32z' fill='none' stroke='%23F29430' stroke-width='1'/%3E%3C/svg%3E");
+  background-size: 56px 100px;
+}
+
+.head-wrap { position: relative; z-index: 1; padding: 80px 0; }
+.head-content { max-width: 640px; }
+.head-content h1 { margin-bottom: 20px; letter-spacing: -0.02em; }
+.head-content .hero-para { font-size: 1.2rem; line-height: 1.7; max-width: 520px; }
+.head-actions { display: flex; align-items: center; gap: 16px; margin-top: 40px; flex-wrap: wrap; }
+
+/* hero badge */
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(242,148,48,0.15); border: 1px solid rgba(242,148,48,0.4);
+  border-radius: 50px; padding: 6px 16px; margin-bottom: 24px;
+}
+.hero-badge-dot { width: 8px; height: 8px; background: var(--primary); border-radius: 50%; animation: pulse 2s infinite; }
+.hero-badge span { font-size: 0.8rem; font-weight: 600; color: var(--primary); }
+
+@keyframes pulse {
+  0%,100% { opacity:1; transform:scale(1); }
+  50% { opacity:0.6; transform:scale(1.4); }
+}
+
+/* stats strip */
+.hero-stats {
+  display: flex; gap: 48px; margin-top: 60px;
+  padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.1);
+}
+.hero-stat-num { font-size: 2.2rem; font-weight: 800; color: var(--primary); font-family:'Merriweather',serif; }
+.hero-stat-label { font-size: 0.8rem; color: var(--text-light); margin-top: 4px; }
+
+/* ═══════════════════════════════════════════
+   INTRO / WHO SECTION
+═══════════════════════════════════════════ */
+.who-container {
+  display: grid; grid-template-columns: 1fr 2fr; gap: 80px; align-items: start;
+}
+.who-left .sec-head { position: sticky; top: 100px; }
+.who-right h3 { margin-bottom: 24px; line-height: 1.4; }
+.who-right p { line-height: 1.8; color: #444; margin-bottom: 16px; }
+.who-right p:last-child { margin-bottom: 0; }
+
+/* ═══════════════════════════════════════════
+   DARK SECTION (ACCORDION + VIDEO)
+═══════════════════════════════════════════ */
+.number-wealth-section { background: var(--bg-dark); overflow-x: clip; }
+
+.sec-head.sticky-head { position: sticky; top: 100px; }
+.sec-head .page-title { line-height: 1.3; }
+.sec-head .card-title { font-size: 1rem; line-height: 1.8; margin-top: 20px; opacity: 0.75; }
+
+.home-video-box {
+  margin-top: 40px; border-radius: var(--radius-lg);
+  overflow: hidden; border: 1px solid rgba(242,148,48,0.3);
+  box-shadow: 0 0 60px rgba(242,148,48,0.1);
+}
+.video-placeholder {
+  position: relative; padding-bottom: 56.25%; background: var(--bg-dark3);
+  overflow: hidden;
+}
+.video-placeholder-inner {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--bg-dark2) 0%, var(--bg-dark3) 100%);
+}
+.play-btn-large {
+  width: 72px; height: 72px; background: var(--primary); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  transition: var(--transition); box-shadow: 0 0 40px rgba(242,148,48,0.4);
+}
+.play-btn-large:hover { transform: scale(1.1); box-shadow: 0 0 60px rgba(242,148,48,0.6); }
+.play-btn-large svg { width: 28px; height: 28px; fill: white; margin-left: 4px; }
+.video-placeholder-inner p { color: var(--text-light); margin-top: 16px; font-size: 0.875rem; }
+
+.acc-left-right {
+  display: grid; grid-template-columns: 1fr 1.5fr; gap: 80px;
+  margin-top: 60px; align-items: start;
+}
+.acc-left-right.reverse { grid-template-columns: 1.5fr 1fr; }
+.acc-left-right.reverse .acc-left { order: 2; }
+.acc-left-right.reverse .acc-right { order: 1; }
+
+/* ── Full-bleed variant: text anchored left, video bleeds to viewport right edge ── */
+.acc-left-right.acc-bleed { gap: 0; grid-template-columns: 1fr minmax(480px, 36vw); }
+.acc-left-right.acc-bleed .acc-right { padding: 0 80px 80px max(40px, calc((100vw - 1280px) / 2 + 40px)); }
+.acc-left-right.acc-bleed .sticky-video { width: 140%; height: 560px; }
+
+.sticky-video { position: sticky; top: 120px; height: 314px; width: 500px; }
+.acc-left { align-self: stretch; }
+.acc-video-wrap {
+  position: relative; overflow: hidden;
+  width: 100%; height: 100%;
+  mix-blend-mode: color;
+}
+.acc-video-wrap::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(0deg, rgba(26,8,0,0) 25%, rgba(26,8,0,0.7) 100%);
+  z-index: 1; pointer-events: none;
+}
+.acc-video-wrap::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(26,8,0,0) 0%, rgba(26,8,0,0.7) 100%);
+  z-index: 1; pointer-events: none;
+}
+.acc-video-wrap video { width: 100%; height: 100%; object-fit: contain; object-position: top right; display: block; }
+.acc-video-inner {
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, var(--bg-dark2), var(--bg-dark3));
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;
+}
+.acc-video-icon { width: 80px; height: 80px; }
+
+.faq-wrap { padding: 36px 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.faq-wrap:first-child { padding-top: 0; }
+.faq-wrap:last-child { border-bottom: none; }
+
+.wealth-number {
+  display: block; font-size: 4rem; font-weight: 800; color: rgba(242,148,48,0.2);
+  font-family: 'Merriweather', serif; line-height: 1; margin-bottom: 12px;
+}
+.faq-wrap .sec-head { margin-bottom: 20px; }
+.faq-wrap h2 { line-height: 1.3; }
+.list-box { color: var(--text-light); line-height: 1.8; }
+.list-box p { margin-bottom: 12px; }
+.list-box ul { padding-left: 0; }
+.list-box ul li {
+  position: relative; padding-left: 20px; margin-bottom: 10px; font-size: 0.95rem;
+}
+.list-box ul li::before {
+  content: '›'; position: absolute; left: 0; color: var(--primary); font-size: 1.2rem; font-weight: 700;
+}
+.list-box strong { color: var(--white); }
+
+/* ═══════════════════════════════════════════
+   AGENTS CARD GRID
+═══════════════════════════════════════════ */
+.agents-section { background: var(--white); }
+
+.sec-head.centered { text-align: center; margin-bottom: 60px; }
+.sec-head.centered .page-title { margin-bottom: 16px; }
+.sec-head.centered p { max-width: 640px; margin: 0 auto; color: #555; line-height: 1.7; }
+
+.agent-card {
+  background: var(--white); border: 1px solid var(--grey-border);
+  border-radius: var(--radius-lg); padding: 36px 28px;
+  transition: var(--transition); position: relative; overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.agent-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  opacity: 0; transition: var(--transition);
+}
+.agent-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: rgba(242,148,48,0.3); }
+.agent-card:hover::before { opacity: 1; }
+
+.agent-icon {
+  width: 64px; height: 64px; background: rgba(242,148,48,0.1);
+  border-radius: 14px; display: flex; align-items: center; justify-content: center;
+  margin-bottom: 20px; transition: var(--transition);
+}
+.agent-card:hover .agent-icon { background: var(--primary); }
+.agent-icon svg { width: 32px; height: 32px; fill: var(--primary); transition: var(--transition); }
+.agent-card:hover .agent-icon svg { fill: white; }
+
+.agent-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; color: var(--text-dark); line-height: 1.4; }
+.agent-card p { font-size: 0.875rem; color: #666; line-height: 1.7; flex: 1; }
+
+.card-plus {
+  display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border: 1px solid var(--grey-border);
+  border-radius: 50%; margin-top: 20px; color: #999; font-size: 1.2rem;
+  transition: var(--transition); align-self: flex-end;
+}
+.agent-card:hover .card-plus { background: var(--primary); border-color: var(--primary); color: white; }
+
+/* ═══════════════════════════════════════════
+   PYRAMID / CAPABILITY SECTION
+═══════════════════════════════════════════ */
+.pyramid-section { background: var(--grey-light); }
+
+.pyramid-container {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+}
+.pyramid-visual { position: relative; }
+.pyramid-img {
+  width: 100%; max-width: 460px; margin: 0 auto;
+}
+
+/* CSS Pyramid */
+.css-pyramid { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 20px 0; }
+.pyramid-tier {
+  border-radius: 8px; display: flex; align-items: center; justify-content: center;
+  transition: var(--transition); cursor: pointer; position: relative;
+  padding: 14px 20px; color: white; font-weight: 700; font-size: 0.85rem; text-align: center;
+}
+.pyramid-tier:hover { transform: scale(1.02); filter: brightness(1.1); }
+.pyramid-tier:nth-child(1) { width: 20%; background: linear-gradient(135deg, #F29430, #FF9F50); }
+.pyramid-tier:nth-child(2) { width: 36%; background: linear-gradient(135deg, #D47820, #F29430); }
+.pyramid-tier:nth-child(3) { width: 52%; background: linear-gradient(135deg, #B86010, #D47820); }
+.pyramid-tier:nth-child(4) { width: 68%; background: linear-gradient(135deg, #9C4E00, #B86010); }
+.pyramid-tier:nth-child(5) { width: 84%; background: linear-gradient(135deg, #7A3C00, #9C4E00); }
+.pyramid-tier:nth-child(6) { width: 100%; background: linear-gradient(135deg, #5C2A00, #7A3C00); }
+
+.pyramid-accent-label {
+  font-size: 0.7rem; opacity: 0.8; white-space: nowrap; overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.capability-list { display: flex; flex-direction: column; gap: 0; }
+.capability-item {
+  border-bottom: 1px solid var(--grey-border);
+  padding: 20px 0; cursor: pointer;
+}
+.capability-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+.capability-header h4 { font-size: 1rem; font-weight: 700; color: var(--text-dark); }
+.capability-header p { font-size: 0.8rem; color: #888; }
+.capability-toggle {
+  width: 28px; height: 28px; border: 1px solid var(--grey-border); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  font-size: 1rem; color: #999; transition: var(--transition);
+}
+.capability-item.open .capability-toggle { background: var(--primary); border-color: var(--primary); color: white; transform: rotate(45deg); }
+.capability-body { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+.capability-body.open { max-height: 300px; }
+.capability-body p { font-size: 0.875rem; color: #555; line-height: 1.7; padding: 12px 0 0; }
+
+/* ═══════════════════════════════════════════
+   VIDEO/MEDIA SECTION
+═══════════════════════════════════════════ */
+.media-section { background: var(--white); }
+
+.media-frame {
+  border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.12); position: relative;
+  background: linear-gradient(135deg, #f5f0eb, #ebe5dd);
+}
+.media-frame img { width: 100%; height: auto; display: block; }
+.media-play-overlay {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: rgba(26,8,0,0.25); transition: var(--transition); cursor: pointer;
+}
+.media-play-overlay:hover { background: rgba(26,8,0,0.4); }
+.play-btn-med {
+  width: 80px; height: 80px; background: var(--primary); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 8px 30px rgba(242,148,48,0.5); transition: var(--transition);
+}
+.media-play-overlay:hover .play-btn-med { transform: scale(1.1); }
+.play-btn-med svg { width: 32px; height: 32px; fill: white; margin-left: 4px; }
+
+/* ═══════════════════════════════════════════
+   PLATFORM / ACCREDITATION SECTION
+═══════════════════════════════════════════ */
+.platform-section { background: var(--grey-light); }
+
+.platform-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+}
+.platform-img-wrap { border-radius: var(--radius-lg); overflow: hidden; }
+.platform-img-placeholder {
+  background: linear-gradient(135deg, #2A1000, #4A2000);
+  border-radius: var(--radius-lg); padding: 40px;
+  min-height: 400px; display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+}
+.platform-img-placeholder::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(242,148,48,0.25), transparent 60%);
+}
+.platform-badge-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px; position: relative; z-index: 1;
+}
+.platform-badge {
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(242,148,48,0.3);
+  border-radius: var(--radius-md); padding: 20px; text-align: center;
+  backdrop-filter: blur(10px);
+}
+.platform-badge-num { font-size: 1.8rem; font-weight: 800; color: var(--primary); font-family:'Merriweather',serif; }
+.platform-badge-label { font-size: 0.75rem; color: rgba(255,255,255,0.7); margin-top: 4px; }
+
+.platform-txt h3 { margin-bottom: 16px; }
+.platform-txt p { color: #555; line-height: 1.8; margin-bottom: 20px; }
+.platform-txt ul { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+.platform-txt ul li {
+  display: flex; align-items: flex-start; gap: 12px; font-size: 0.95rem; color: #444; line-height: 1.6;
+}
+.platform-txt ul li::before {
+  content: ''; width: 8px; height: 8px; background: var(--primary);
+  border-radius: 50%; flex-shrink: 0; margin-top: 8px;
+}
+
+/* Accreditation logos */
+.acc-logos { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+.acc-logo-box {
+  background: var(--white); border: 1px solid var(--grey-border);
+  border-radius: var(--radius-md); padding: 16px 24px;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  min-width: 100px;
+}
+.acc-logo-badge {
+  width: 48px; height: 48px; border-radius: 50%; background: var(--primary);
+  display: flex; align-items: center; justify-content: center; font-size: 0.7rem;
+  font-weight: 700; color: white; text-align: center; line-height: 1.2;
+}
+.acc-logo-box p { font-size: 0.7rem; color: #888; text-align: center; }
+
+/* ═══════════════════════════════════════════
+   STICKY PILLARS
+═══════════════════════════════════════════ */
+.pillars-section { background: var(--bg-dark); }
+
+.pillar-header { text-align: center; margin-bottom: 80px; }
+.pillar-header h2 { margin-bottom: 16px; }
+.pillar-header p { color: var(--text-light); max-width: 640px; margin: 0 auto; line-height: 1.7; }
+
+.pillar-scroll-wrap { display: flex; flex-direction: column; gap: 60px; }
+
+.gf-card-sticky { /* originally sticky, simplified */ }
+.gf-card {
+  display: grid; grid-template-columns: 2fr 1fr; gap: 60px; align-items: center;
+  background: var(--bg-dark3); border-radius: var(--radius-lg); padding: 60px;
+  border: 1px solid rgba(242,148,48,0.15);
+}
+.gf-card:nth-child(even) { grid-template-columns: 1fr 2fr; }
+.gf-card:nth-child(even) .gf-content { order: 2; }
+.gf-card:nth-child(even) .gf-img    { order: 1; }
+.gf-content h3 { margin-bottom: 20px; }
+.gf-content p { color: var(--text-light); line-height: 1.8; }
+.gf-img { display: flex; align-items: center; justify-content: center; }
+.pillar-icon-wrap {
+  width: 140px; height: 140px; background: rgba(242,148,48,0.1);
+  border-radius: 50%; border: 2px solid rgba(242,148,48,0.3);
+  display: flex; align-items: center; justify-content: center; margin: 0 auto;
+}
+.pillar-icon-wrap svg { width: 64px; height: 64px; fill: var(--primary); }
+
+/* ═══════════════════════════════════════════
+   TESTIMONIALS
+═══════════════════════════════════════════ */
+.testimonial-section { background: var(--grey-light); overflow: hidden; }
+.test-swiper { max-width: 760px; margin: 0 auto; }
+.testimonial-content-wrapper {
+  background: var(--white); border-radius: var(--radius-lg); padding: 60px;
+  border: 1px solid var(--grey-border); box-shadow: 0 8px 40px rgba(0,0,0,0.06);
+}
+.testimonial-header { margin-bottom: 32px; }
+.testimonial-header h2 { font-size: 1.2rem; color: var(--text-dark); margin-bottom: 6px; }
+.testimonial-subheading { color: var(--primary); font-weight: 600; font-size: 0.875rem; }
+.testimonial-quote p { font-size: 1rem; line-height: 1.85; color: #444; font-style: italic; }
+.testimonial-author { display: flex; align-items: center; gap: 16px; margin-top: 32px; }
+.author-details h3 { font-size: 1rem; font-weight: 700; color: var(--text-dark); }
+.author-details p  { font-size: 0.8rem; color: #888; margin-top: 2px; }
+.author-avatar {
+  width: 48px; height: 48px; background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; font-weight: 700; color: white; font-size: 1.1rem;
+}
+.test-swiper-pagination { text-align: center; margin-top: 24px; }
+.test-swiper-pagination .swiper-pagination-bullet { background: var(--primary); }
+
+/* ═══════════════════════════════════════════
+   CTA BANNER
+═══════════════════════════════════════════ */
+.cta-banner-section { background: var(--white); }
+.cta-banner {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 70px 80px; border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--bg-dark) 0%, #3D1800 100%);
+  position: relative; overflow: hidden; gap: 40px;
+}
+.cta-banner::before {
+  content: ''; position: absolute; right: -100px; top: -100px;
+  width: 400px; height: 400px; background: radial-gradient(circle, rgba(242,148,48,0.2), transparent 70%);
+}
+.cta-banner-content { position: relative; z-index: 1; max-width: 560px; }
+.cta-banner-content h3 { margin-bottom: 16px; }
+.cta-banner-content p { color: rgba(255,255,255,0.75); font-size: 1rem; line-height: 1.7; }
+.cta-banner-actions { display: flex; gap: 12px; flex-wrap: wrap; position: relative; z-index: 1; }
+
+/* ═══════════════════════════════════════════
+   BLOG GRID
+═══════════════════════════════════════════ */
+.blog-section { background: var(--white); }
+.blog-card {
+  border-radius: var(--radius-md); overflow: hidden; display: block;
+  border: 1px solid var(--grey-border); transition: var(--transition);
+  background: var(--white);
+}
+.blog-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: rgba(242,148,48,0.3); }
+
+.blog-img { aspect-ratio: 16/9; overflow: hidden; }
+.blog-img-placeholder {
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, #f5ede0, #e8d5c0);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.5rem;
+  transition: var(--transition);
+}
+.blog-card:hover .blog-img-placeholder { transform: scale(1.04); }
+
+.blog-txt-wrap { padding: 20px 20px 24px; }
+.date-wrap ul { display: flex; gap: 8px; margin-bottom: 10px; }
+.date-wrap ul li { font-size: 0.78rem; color: var(--primary); font-weight: 600; }
+.blog-txt-wrap h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); line-height: 1.5; }
+.blog-txt-wrap h3:hover { color: var(--primary); }
+
+/* ═══════════════════════════════════════════
+   PRE-FOOTER
+═══════════════════════════════════════════ */
+.pre-footer-wrap {
+  border-radius: var(--radius-lg); overflow: hidden; position: relative;
+  min-height: 320px; display: flex; align-items: center;
+  background: linear-gradient(135deg, var(--bg-dark), #3D1800);
+}
+.pre-footer-bg {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 80% 50%, rgba(242,148,48,0.3), transparent 60%);
+}
+.pre-footer-content {
+  position: relative; z-index: 1; padding: 80px; max-width: 600px;
+}
+.pre-footer-content h2 { margin-bottom: 16px; }
+.pre-footer-btn { display: flex; gap: 16px; flex-wrap: wrap; }
+
+/* ═══════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════ */
+.footer { background: var(--bg-dark); padding: 80px 0 40px; }
+
+.footer-content { display: grid; grid-template-columns: 1.5fr repeat(4, 1fr); gap: 40px; }
+.footer-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 24px; }
+.footer-logo-icon {
+  width: 36px; height: 36px; background: var(--primary);
+  border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.footer-logo-icon svg { width: 20px; height: 20px; fill: white; }
+.footer-logo-text { font-family:'Merriweather',serif; font-weight:700; font-size:1.1rem; color:white; }
+.footer-logo-text span { color: var(--primary); }
+
+.company-info address, .company-info p, .company-info a {
+  font-size: 0.825rem; color: rgba(255,255,255,0.6); line-height: 1.8;
+}
+.company-info a:hover { color: var(--primary); }
+
+.footer-col h4 { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.4); margin-bottom: 20px; }
+.footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+.footer-col ul li a { font-size: 0.875rem; color: rgba(255,255,255,0.65); transition: var(--transition); display: flex; align-items: center; gap: 6px; }
+.footer-col ul li a:hover { color: var(--primary); padding-left: 4px; }
+.footer-col ul li a svg { width: 12px; height: 12px; flex-shrink: 0; opacity: 0.5; }
+
+.footer-bottom {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-top: 40px; margin-top: 60px; border-top: 1px solid rgba(255,255,255,0.08);
+  flex-wrap: wrap; gap: 16px;
+}
+.footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.4); }
+.footer-bottom-links { display: flex; gap: 24px; }
+.footer-bottom-links a { font-size: 0.8rem; color: rgba(255,255,255,0.4); transition: var(--transition); }
+.footer-bottom-links a:hover { color: var(--primary); }
+
+.social-links { display: flex; gap: 12px; margin-top: 20px; }
+.social-link {
+  width: 36px; height: 36px; background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  transition: var(--transition);
+}
+.social-link:hover { background: var(--primary); border-color: var(--primary); }
+.social-link svg { width: 16px; height: 16px; fill: rgba(255,255,255,0.6); }
+.social-link:hover svg { fill: white; }
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .container, .container-sm { padding: 0 24px; }
+  .who-container { grid-template-columns: 1fr; gap: 40px; }
+  .who-left .sec-head { position: static; }
+  .acc-left-right, .acc-left-right.reverse { grid-template-columns: 1fr; }
+  .acc-left-right.reverse .acc-left,
+  .acc-left-right.reverse .acc-right { order: unset; }
+  .acc-left-right.acc-bleed { grid-template-columns: 1fr; }
+  .acc-left-right.acc-bleed .acc-right { padding: 0 24px 40px; }
+  .acc-left-right.acc-bleed .sticky-video { height: 340px; }
+  .g-3 { grid-template-columns: repeat(2, 1fr); }
+  .g-4 { grid-template-columns: repeat(2, 1fr); }
+  .pyramid-container { grid-template-columns: 1fr; gap: 40px; }
+  .platform-grid { grid-template-columns: 1fr; gap: 40px; }
+  .footer-content { grid-template-columns: 1fr 1fr; }
+  .gf-card, .gf-card:nth-child(even) { grid-template-columns: 1fr; }
+  .gf-card:nth-child(even) .gf-content,
+  .gf-card:nth-child(even) .gf-img { order: unset; }
+  .cta-banner { flex-direction: column; padding: 50px 40px; }
+}
+@media (max-width: 768px) {
+  .comm-section { padding: 70px 0; }
+  .head-right, .nav-cta { display: none; }
+  .hamburger { display: flex; }
+  .g-3, .g-4 { grid-template-columns: 1fr; }
+  .hero-stats { flex-wrap: wrap; gap: 24px; }
+  .head-actions { flex-direction: column; align-items: flex-start; }
+  .footer-content { grid-template-columns: 1fr; gap: 32px; }
+  .pre-footer-content { padding: 40px 24px; }
+  .cta-banner { padding: 40px 24px; }
+  .gf-card { padding: 32px 24px; }
+  .testimonial-content-wrapper { padding: 36px 24px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════
+     HEADER
+═══════════════════════════════════════ -->
+<header class="header" id="header">
+  <div class="header-box">
+    <div class="container">
+      <!-- Logo -->
+      <a href="/" class="logo-wrap">
+          <img src="assets/images/MPDoors_Logo.png" alt="MP Doors" style="height:40px;width:auto;">
+      </a>
+
+      <!-- Nav -->
+      <ul class="header-list">
+
+        <!-- Products -->
+        <li class="drop-menu">
+          <a href="/patio-doors/">Products
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="drop-list-wrap">
+            <div class="drop-list-container">
+              <div class="menu-cards-wrap">
+                <a class="menu-card" href="/patio-doors/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="9" height="20" rx="1"/><rect x="13" y="2" width="9" height="20" rx="1"/><circle cx="10.5" cy="12" r="0.6" fill="currentColor" stroke="none"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Patio Doors</h3><p>Composite sliding and hinged doors for every climate.</p></div>
+                </a>
+                <a class="menu-card" href="/entry-doors/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="22" rx="1"/><ellipse cx="12" cy="10" rx="4" ry="5"/><circle cx="15.5" cy="16" r="0.6" fill="currentColor" stroke="none"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Entry Doors</h3><p>Full lite and oval lite entry doors in composite.</p></div>
+                </a>
+                <a class="menu-card" href="/patio-doors/#best-sellers">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Best Sellers</h3><p>The doors 3,600+ homeowners chose — narrowed to three.</p></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Why MP Doors -->
+        <li class="drop-menu">
+          <a href="/why-composite/">Why MP Doors
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="drop-list-wrap">
+            <div class="drop-list-container">
+              <div class="menu-cards-wrap">
+                <a class="menu-card" href="/why-composite/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Material Comparison</h3><p>Why composite outlasts vinyl and wood over time.</p></div>
+                </a>
+                <a class="menu-card" href="/why-composite/#hydroshield">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>HydroShield™ Protection</h3><p>The six-sided seal that keeps moisture out permanently.</p></div>
+                </a>
+                <a class="menu-card" href="/why-composite/#certifications">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Testing &amp; Certifications</h3><p>FBC, TDI, Energy Star — what each credential means.</p></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Real Projects -->
+        <li class="drop-menu">
+          <a href="/real-projects/">Real Projects
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="drop-list-wrap">
+            <div class="drop-list-container">
+              <div class="menu-cards-wrap">
+                <a class="menu-card" href="/real-projects/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Browse by Climate</h3><p>Installs from Florida humidity to Minnesota winters.</p></div>
+                </a>
+                <a class="menu-card" href="/real-projects/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Browse by Style</h3><p>Modern, craftsman, and transitional door selections.</p></div>
+                </a>
+                <a class="menu-card" href="/real-projects/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Installation Stories</h3><p>Real challenges, real solutions, real results.</p></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Support & Guides -->
+        <li class="drop-menu">
+          <a href="/warranty-support/">Support &amp; Guides
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="drop-list-wrap">
+            <div class="drop-list-container">
+              <div class="menu-cards-wrap">
+                <a class="menu-card" href="/warranty-support/#installation">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Measurement &amp; Installation</h3><p>Get the opening right before the door arrives.</p></div>
+                </a>
+                <a class="menu-card" href="/warranty-support/">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Care, Warranty &amp; FAQ</h3><p>What's covered, for how long, and how to claim it.</p></div>
+                </a>
+                <a class="menu-card" href="/warranty-support/#contact">
+                  <div class="menu-icon-box">
+                    <div class="menu-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    </div>
+                  </div>
+                  <div class="menu-card-txt"><h3>Contact Us</h3><p>Call or email before you write a review — we want to help.</p></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <div class="nav-cta">
+        <a href="https://www.homedepot.com" class="cta-btn">Shop Now</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<main>
+<section class="head-section">
+  <div class="header-bg" style="background:linear-gradient(135deg, #D4C5B0 0%, #C0AF95 100%);">
+    <img src="/assets/images/hero-homepage.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;" onerror="this.style.display='none'">
+  </div>
+  <div class="hero-shapes">
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+  </div>
+  <div class="hero-hex-grid"></div>
+
+  <div class="container">
+    <div class="head-wrap">
+      <div class="head-content">
+        <div class="hero-badge">
+          <div class="hero-badge-dot"></div>
+          <span>Exclusively at The Home Depot</span>
+        </div>
+        <h1 class="sec-title white">Composite & Fiberglass Doors Built to Last</h1>
+        <p class="hero-para txt-lgrey">Composite construction. Sealed on all six sides.<br/>Energy Star certified for every U.S. climate.</p>
+        <div class="head-actions">
+          <a href="https://www.homedepot.com" class="button orange">Find In Store →</a>
+          <a href="/why-composite/" class="button white">Why Composite? →</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">3,600+</div>
+            <div class="hero-stat-label">Homeowners who chose MP Doors</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">4.0<span style="color:#F2942F;">★</span></div>
+            <div class="hero-stat-label">Average rating at The Home Depot</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">4</div>
+            <div class="hero-stat-label">Energy Star climate zones covered</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     BRAND INTRODUCTION
+═══════════════════════════════════════ -->
+<section class="comm-section">
+  <div class="container">
+    <div class="who-container">
+      <div class="who-left">
+        <div class="sec-head">
+          <h2 class="page-title txt-primary">Engineering Excellence
+            Since 1999</h2>
+        </div>
+      </div>
+      <div class="who-right">
+        <div class="who-txt-wrap">
+          <h3 class="txt-primary font20r">An open door to quality and craftsmanship</h3>
+          <div class="font18r comm-para font-open">
+            <p>MP Doors combines fiberglass durability with waterproof composite construction—engineered specifically for climates that destroy traditional materials. Our focus is simple: doors that resist rot, warping, and the failures that necessitate premature replacement.</p>
+            <p>Trusted by hundreds of thousands of homeowners since 1999, available at The Home Depot nationwide. Manufactured in the USA with a lifetime warranty on the materials that matter most.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     4 BRAND PILLARS (DARK ACCORDION + IMAGE)
+═══════════════════════════════════════ -->
+<section class="comm-section bg-orange number-wealth-section">
+  <div class="container">
+    <div class="sec-head">
+      <h2 class="page-title white">Engineered Into Every Door</h2>
+    </div>
+  </div>
+
+  <div class="acc-left-right reverse acc-bleed" style="margin-top:60px;">
+      <div class="acc-left">
+        <div class="sticky-video">
+          <div class="acc-video-wrap">
+            <video allow="accelerometer; clipboard-write; encrypted-media; gyroscope; loop; autoplay;" autopictureinpicture="false" autoplay="" buffered="" class="acc-video" controlslist="nodownload, noremoteplayback" frameborder="0" height="100%" loop="" muted="muted" playsinline="true" preload="auto" title="Composite Door Feature" webkit-playsinline="true" width="100%" x-webkit-airplay="deny">
+              <source src="assets/videos/composite-door-feature.mp4" type="video/mp4">
+              Sorry, your browser doesn't support embedded videos.
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="acc-right">
+        <div class="faq-wrap">
+          <div class="sec-head">
+            <span class="wealth-number">01</span>
+            <p class="font12r" style="text-transform:uppercase;letter-spacing:0.1em;color:var(--primary);font-weight:700;margin-bottom:8px;">MATERIAL PERFORMANCE</p>
+            <h2 class="font36r white">The Frame That Does Not Fail</h2>
+          </div>
+          <div class="list-box">
+            <p>Composite construction cannot absorb moisture — eliminating rot, warp, split, and delamination. The door that closes precisely on installation day closes the same way in year ten, because the frame hasn't moved.</p>
+          </div>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="sec-head">
+            <span class="wealth-number">02</span>
+            <p class="font12r" style="text-transform:uppercase;letter-spacing:0.1em;color:var(--primary);font-weight:700;margin-bottom:8px;">CLIMATE CERTIFICATION</p>
+            <h2 class="font36r white">One Door. Every U.S. Climate.</h2>
+          </div>
+          <div class="list-box">
+            <p>Energy Star certified across all four U.S. climate zones — Northern, North Central, South Central, and Southern. The same door handles Minnesota winters and Texas summers without regional variants or compromises.</p>
+          </div>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="sec-head">
+            <span class="wealth-number">03</span>
+            <p class="font12r" style="text-transform:uppercase;letter-spacing:0.1em;color:var(--primary);font-weight:700;margin-bottom:8px;">WATERPROOF CONSTRUCTION</p>
+            <h2 class="font36r white">Sealed Where Water Finds a Way</h2>
+          </div>
+          <div class="list-box">
+            <p>HydroShield Technology seals every edge — frame, panels, and all six sides — against moisture intrusion. Water cannot route around corner joints or bottom rails where surface-level waterproofing fails.</p>
+          </div>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="sec-head">
+            <span class="wealth-number">04</span>
+            <p class="font12r" style="text-transform:uppercase;letter-spacing:0.1em;color:var(--primary);font-weight:700;margin-bottom:8px;">WARRANTY CONFIDENCE</p>
+            <h2 class="font36r white">Lifetime Coverage on What Matters Most</h2>
+          </div>
+          <div class="list-box">
+            <p>Frame, panels, and astragals carry Limited Lifetime Warranty — structural coverage for as long as you own the home. Full scope detailed on the Warranty & Support page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PRODUCT CARDS — THE MASTERPIECE SERIES
+═══════════════════════════════════════ -->
+<section class="comm-section agents-section">
+  <div class="container">
+    <div class="sec-head centered">
+      <h2 class="page-title">The MasterPiece Series</h2>
+    </div>
+    <div class="comm-grid g-4">
+
+      <div class="agent-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="agent-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="9" height="20" rx="1"/><rect x="13" y="2" width="9" height="20" rx="1"/><circle cx="10.5" cy="12" r="0.6" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <h3>Hinged Full Lite Patio Door</h3>
+        <p>Both panels fully operable for a wide, unobstructed opening and maximum daylight.</p>
+        <a href="/patio-doors/hinged-full-lite/" class="card-plus">→</a>
+      </div>
+
+      <div class="agent-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="agent-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="10" height="18" rx="1"/><rect x="12" y="3" width="10" height="18" rx="1"/><line x1="7" y1="3" x2="7" y2="21"/><line x1="17" y1="3" x2="17" y2="21"/></svg>
+        </div>
+        <h3>Full Lite Gliding Patio Door</h3>
+        <p>Flush-glaze sliding door with adjustable rollers engineered for long-term smooth operation.</p>
+        <a href="/patio-doors/full-lite-gliding/" class="card-plus">→</a>
+      </div>
+
+      <div class="agent-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="agent-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
+        <h3>Impact Hinged Patio Door</h3>
+        <p>Built to meet impact standards — certified for coastal storms and permit approval.</p>
+        <a href="/patio-doors/impact-hinged/" class="card-plus">→</a>
+      </div>
+
+      <div class="agent-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="agent-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="22" rx="1"/><ellipse cx="12" cy="11" rx="4" ry="5"/><circle cx="15.5" cy="17" r="0.6" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <h3>Oval Lite Entry Door</h3>
+        <p>Oval glass insert brings natural light to the entry without exposing the interior — on a stable composite frame.</p>
+        <a href="/entry-doors/oval-lite/" class="card-plus">→</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     DOOR CATEGORIES
+═══════════════════════════════════════ -->
+<section class="comm-section" style="background:var(--grey-light);padding:80px 0;">
+  <div class="container">
+    <div class="sec-head centered" style="margin-bottom:56px;">
+      <h2 class="page-title">Find Your Door</h2>
+      <p style="color:#5A3010;font-size:1rem;margin-top:12px;">Two product families. One composite standard.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <a href="/patio-doors/" style="display:block;position:relative;border-radius:16px;overflow:hidden;min-height:320px;background:linear-gradient(135deg,#1A0800 0%,#2E1500 100%);padding:48px 40px;text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        <span style="display:inline-block;background:var(--primary);color:#fff;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:20px;">Patio Doors</span>
+        <h3 style="font-family:'Merriweather',serif;font-size:clamp(1.4rem,2.5vw,2rem);color:#fff;line-height:1.25;margin-bottom:16px;">Hinged &amp; Sliding.<br/>Full Glass.</h3>
+        <p style="color:rgba(255,255,255,0.65);font-size:0.9rem;line-height:1.7;margin-bottom:28px;">Three composite models — hinged, gliding, and impact-rated — each Energy Star certified for every U.S. climate.</p>
+        <span style="color:var(--primary);font-weight:700;font-size:0.875rem;">Browse Patio Doors →</span>
+      </a>
+      <a href="/entry-doors/" style="display:block;position:relative;border-radius:16px;overflow:hidden;min-height:320px;background:#fff;border:2px solid #F0E4D4;padding:48px 40px;text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 20px 50px rgba(242,148,48,0.15)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        <span style="display:inline-block;background:#F0E4D4;color:#8B5200;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:20px;">Entry Doors</span>
+        <h3 style="font-family:'Merriweather',serif;font-size:clamp(1.4rem,2.5vw,2rem);color:#1A0800;line-height:1.25;margin-bottom:16px;">Front Entries.<br/>Composite Frame.</h3>
+        <p style="color:#5A3010;font-size:0.9rem;line-height:1.7;margin-bottom:28px;">Oval lite and modern full lite designs — natural light at the entry, no refinishing required.</p>
+        <span style="color:var(--primary);font-weight:700;font-size:0.875rem;">Browse Entry Doors →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     BUYER PROOF GRID — WHAT 3,600+ HOMEOWNERS FOUND
+═══════════════════════════════════════ -->
+<section class="comm-section pyramid-section">
+  <div class="container">
+    <div class="sec-head centered" style="margin-bottom:70px;">
+      <h2 class="page-title">What 3,600+ Homeowners Found</h2>
+      <p>The accumulated record of real installs — every U.S. climate, DIY and contractor, year one through year five and beyond.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:60px;">
+      <div style="background:#FDF8F2;padding:40px 32px;border:1px solid #F0E4D4;transition:0.3s;" onmouseover="this.style.background='#fff'" onmouseout="this.style.background='#FDF8F2'">
+        <div style="font-size:2rem;margin-bottom:12px;">⟳</div>
+        <h3 style="font-family:'Merriweather',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:#1A0800;">Still Smooth — Years Later</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:#5A3010;">Year-3 and year-5 reviews report the same operation as install day. Composite holds its geometry; the frame does not shift.</p>
+      </div>
+      <div style="background:#FDF8F2;padding:40px 32px;border:1px solid #F0E4D4;transition:0.3s;" onmouseover="this.style.background='#fff'" onmouseout="this.style.background='#FDF8F2'">
+        <div style="font-size:1.8rem;margin-bottom:12px;">☀</div>
+        <h3 style="font-family:'Merriweather',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:#1A0800;">Light That Changed the Room</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:#5A3010;">Full-glass buyers consistently report one surprise: how much light the door brings in. A door that lets in more, blocks out less.</p>
+      </div>
+      <div style="background:#FDF8F2;padding:40px 32px;border:1px solid #F0E4D4;transition:0.3s;" onmouseover="this.style.background='#fff'" onmouseout="this.style.background='#FDF8F2'">
+        <div style="font-size:2rem;margin-bottom:12px;">⬡</div>
+        <h3 style="font-family:'Merriweather',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:#1A0800;">Coastal &amp; Humid Climates</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:#5A3010;">South Texas, coastal Florida, Gulf Coast humidity — salt air and sustained heat leave no mark on the composite frame or finish.</p>
+      </div>
+      <div style="background:var(--bg-dark);padding:40px 32px;transition:0.3s;" onmouseover="this.style.background='#251000'" onmouseout="this.style.background='var(--bg-dark)'">
+        <div style="font-size:2rem;margin-bottom:12px;">🔧</div>
+        <h3 style="font-family:'Merriweather',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:#fff;">DIY &amp; Pro Installs Both Work</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:rgba(255,255,255,0.65);">Experienced DIYers report clean installs under two hours. Plan for two people — the door is heavy, the process is straightforward.</p>
+      </div>
+      <div style="background:var(--bg-dark);padding:40px 32px;transition:0.3s;" onmouseover="this.style.background='#251000'" onmouseout="this.style.background='var(--bg-dark)'">
+        <div style="font-size:2rem;margin-bottom:12px;">❝</div>
+        <h3 style="font-family:'Merriweather',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:#fff;">"This will last the rest of our lives."</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:rgba(255,255,255,0.65);">That exact phrase — unprompted — appears across multiple verified reviews from buyers several seasons into ownership.</p>
+      </div>
+      <div style="background:var(--primary);padding:40px 32px;transition:0.3s;">
+        <div style="font-size:2rem;margin-bottom:12px;color:#fff;">★</div>
+        <h3 style="font-family:'Merriweather',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:#fff;">4.0★ at 3,600+ Installs</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:rgba(255,255,255,0.85);">At this volume, a 4.0 average has absorbed every variable the market produces. A tested record — not an early sample.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     BOLD DIFFERENTIATOR STATEMENT
+═══════════════════════════════════════ -->
+<section class="comm-section media-section">
+  <div class="container">
+    <div style="max-width:840px;margin:0 auto;text-align:center;">
+      <h2 class="sec-title" style="margin-bottom:32px;color:var(--text-dark);">
+        The door that works the same in year ten as it did on install day.
+      </h2>
+      <p style="font-size:1rem;line-height:1.9;color:#555;max-width:640px;margin:0 auto 20px;">
+        Composite construction holds its geometry where wood swells
+        and vinyl warps. The same frame. The same seal. The same operation —
+        season after season.
+      </p>
+      <a href="/why-composite/"
+         style="display:inline-flex;align-items:center;gap:6px;
+         color:var(--primary);font-weight:700;font-size:0.9rem;">
+        Why composite → </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     THREE PILLARS — WHAT HAPPENS AFTER INSTALLATION
+═══════════════════════════════════════ -->
+<section class="comm-section pillars-section">
+  <div class="container">
+    <div class="pillar-header">
+      <h2 class="page-title white">What Happens After Installation</h2>
+    </div>
+
+    <div class="pillar-scroll-wrap">
+
+      <!-- Card 1: Warranty -->
+      <div class="gf-card-sticky" data-aos="fade-up">
+        <div class="gf-card">
+          <div class="gf-content">
+            <h3 class="font40r white">Lifetime on Structural Components</h3>
+            <div class="font20sb fw-400 secondary2 font-open">
+              <p>The frame, panels, and astragals carry a Limited Lifetime Warranty for the original purchaser in an owner-occupied single-family home. The locking mechanism is covered for 10 years. The glass seal on standard doors is covered for 20 years, prorated. Full terms — what is covered and what is not — are on the Warranty &amp; Support page.</p>
+            </div>
+            <a href="/warranty-support/" style="display:inline-flex;align-items:center;gap:6px;color:var(--primary);font-size:0.875rem;font-weight:700;margin-top:24px;">Full warranty terms →</a>
+          </div>
+          <div class="gf-img">
+            <div class="pillar-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Support -->
+      <div class="gf-card-sticky" data-aos="fade-up" data-aos-delay="100">
+        <div class="gf-card">
+          <div class="gf-content">
+            <h3 class="font40r white">5 Days to Report Delivery Damage</h3>
+            <div class="font20sb fw-400 secondary2 font-open">
+              <p>If your door arrives damaged, inspect it before the installer leaves and call 1-888-366-7717 within 5 calendar days. After that window, delivery damage is no longer eligible for coverage — no exceptions. You will not be asked to return a 200-pound door to a retail location. Call first, and we handle the rest.</p>
+            </div>
+            <a href="/warranty-support/" style="display:inline-flex;align-items:center;gap:6px;color:var(--primary);font-size:0.875rem;font-weight:700;margin-top:24px;">What to do if damaged →</a>
+          </div>
+          <div class="gf-img">
+            <div class="pillar-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Transparency -->
+      <div class="gf-card-sticky" data-aos="fade-up" data-aos-delay="200">
+        <div class="gf-card">
+          <div class="gf-content">
+            <h3 class="font40r white">Talk to Support Before You Review</h3>
+            <div class="font20sb fw-400 secondary2 font-open">
+              <p>If something is not right — a question before installation, a part you need, a warranty claim — call before posting a review. Most issues resolve faster with a direct conversation.</p>
+              <p style="margin-top:16px;"><a href="tel:18883667717" style="color:var(--primary);font-weight:700;">1-888-366-7717</a></p>
+              <p><a href="mailto:customerservice@mpdoors.com" style="color:var(--primary);font-weight:700;">customerservice@mpdoors.com</a></p>
+            </div>
+            <a href="/warranty-support/#contact" style="display:inline-flex;align-items:center;gap:6px;color:var(--primary);font-size:0.875rem;font-weight:700;margin-top:24px;">Contact us →</a>
+          </div>
+          <div class="gf-img">
+            <div class="pillar-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════ -->
+<section class="comm-section testimonial-section">
+  <div class="container">
+    <div class="swiper test-swiper testSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-content-wrapper">
+            <header class="testimonial-header">
+              <h2>What Buyers Say</h2>
+              <p class="testimonial-subheading">3,600+ verified purchase reviews — the most reviewed composite patio door brand in the channel.</p>
+            </header>
+            <blockquote class="testimonial-quote">
+              <p>★★★★★&nbsp;&nbsp;&nbsp;This is a much higher quality door than I thought I was buying. The installation was smooth and straightforward. I would purchase this product again.</p>
+            </blockquote>
+            <figure class="testimonial-author">
+              <div class="author-avatar">V</div>
+              <figcaption class="author-details">
+                <h3 class="author-name">Verified Buyer</h3>
+                <p class="author-title">Verified Purchase</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-content-wrapper">
+            <header class="testimonial-header">
+              <h2>What Buyers Say</h2>
+              <p class="testimonial-subheading">3,600+ verified purchase reviews — the most reviewed composite patio door brand in the channel.</p>
+            </header>
+            <blockquote class="testimonial-quote">
+              <p>★★★★★&nbsp;&nbsp;&nbsp;Three sets of doors at our beach house. Two years of salt air and Gulf Coast sun and they're holding perfectly. The composite frame doesn't show a mark.</p>
+            </blockquote>
+            <figure class="testimonial-author">
+              <div class="author-avatar">V</div>
+              <figcaption class="author-details">
+                <h3 class="author-name">Verified Buyer · Florida</h3>
+                <p class="author-title">Verified Purchase</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-content-wrapper">
+            <header class="testimonial-header">
+              <h2>What Buyers Say</h2>
+              <p class="testimonial-subheading">3,600+ verified purchase reviews — the most reviewed composite patio door brand in the channel.</p>
+            </header>
+            <blockquote class="testimonial-quote">
+              <p>★★★★★&nbsp;&nbsp;&nbsp;This door unit is awesome and fit like a glove. We are 100 percent happy with the product.</p>
+            </blockquote>
+            <figure class="testimonial-author">
+              <div class="author-avatar">V</div>
+              <figcaption class="author-details">
+                <h3 class="author-name">Verified Buyer</h3>
+                <p class="author-title">Verified Purchase</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+      </div>
+      <div class="test-swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FAQ
+═══════════════════════════════════════ -->
+<section class="comm-section bg-light" id="faq">
+  <div class="container-sm">
+    <div class="sec-head centered" style="margin-bottom:56px;">
+      <h2 class="page-title">Common Questions</h2>
+      <p style="color:#5A3010;margin-top:12px;font-size:1rem;">Answers before you need them.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0;border:1px solid #F0E4D4;border-radius:16px;overflow:hidden;">
+
+      <details style="border-bottom:1px solid #F0E4D4;">
+        <summary style="padding:24px 28px;font-family:'Merriweather',serif;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:#1A0800;background:#fff;transition:0.2s;" onmouseover="this.style.background='#FDF8F2'" onmouseout="this.parentElement.open?this.style.background='#FDF8F2':this.style.background='#fff'">
+          What is the difference between composite and vinyl patio doors?
+          <span style="font-size:1.2rem;color:var(--primary);flex-shrink:0;margin-left:16px;">+</span>
+        </summary>
+        <div style="padding:0 28px 24px;font-size:0.9rem;line-height:1.8;color:#5A3010;background:#FDF8F2;">
+          Composite construction resists the failure modes that end vinyl doors early — warping under heat, surface degradation from UV, and moisture intrusion at joints. A composite door holds its geometry and finish without the maintenance cycle vinyl requires.
+        </div>
+      </details>
+
+      <details style="border-bottom:1px solid #F0E4D4;">
+        <summary style="padding:24px 28px;font-family:'Merriweather',serif;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:#1A0800;background:#fff;transition:0.2s;" onmouseover="this.style.background='#FDF8F2'" onmouseout="this.parentElement.open?this.style.background='#FDF8F2':this.style.background='#fff'">
+          Is MP Doors Energy Star certified for my climate?
+          <span style="font-size:1.2rem;color:var(--primary);flex-shrink:0;margin-left:16px;">+</span>
+        </summary>
+        <div style="padding:0 28px 24px;font-size:0.9rem;line-height:1.8;color:#5A3010;background:#FDF8F2;">
+          Yes. Every MP Doors product is Energy Star certified across all four U.S. climate zones — Northern, North Central, South Central, and Southern. One certification that covers Minnesota winters and Gulf Coast summers alike.
+        </div>
+      </details>
+
+      <details style="border-bottom:1px solid #F0E4D4;">
+        <summary style="padding:24px 28px;font-family:'Merriweather',serif;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:#1A0800;background:#fff;transition:0.2s;" onmouseover="this.style.background='#FDF8F2'" onmouseout="this.parentElement.open?this.style.background='#FDF8F2':this.style.background='#fff'">
+          What does the warranty actually cover?
+          <span style="font-size:1.2rem;color:var(--primary);flex-shrink:0;margin-left:16px;">+</span>
+        </summary>
+        <div style="padding:0 28px 24px;font-size:0.9rem;line-height:1.8;color:#5A3010;background:#FDF8F2;">
+          Structural components — frame, panels, and astragals — carry a Limited Lifetime Warranty for the original purchaser in an owner-occupied home. Locking mechanism: 10 years. Glass seal: 20 years, prorated. Full terms are on the Warranty &amp; Support page.
+        </div>
+      </details>
+
+      <details style="border-bottom:1px solid #F0E4D4;">
+        <summary style="padding:24px 28px;font-family:'Merriweather',serif;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:#1A0800;background:#fff;transition:0.2s;" onmouseover="this.style.background='#FDF8F2'" onmouseout="this.parentElement.open?this.style.background='#FDF8F2':this.style.background='#fff'">
+          Can I install an MP Doors door myself?
+          <span style="font-size:1.2rem;color:var(--primary);flex-shrink:0;margin-left:16px;">+</span>
+        </summary>
+        <div style="padding:0 28px 24px;font-size:0.9rem;line-height:1.8;color:#5A3010;background:#FDF8F2;">
+          Professional installation is recommended. Doors require precise leveling, proper flashing, and structural anchoring. Installation quality directly determines long-term performance. The Home Depot offers professional installation services.
+        </div>
+      </details>
+
+      <details style="border-bottom:1px solid #F0E4D4;">
+        <summary style="padding:24px 28px;font-family:'Merriweather',serif;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:#1A0800;background:#fff;transition:0.2s;" onmouseover="this.style.background='#FDF8F2'" onmouseout="this.parentElement.open?this.style.background='#FDF8F2':this.style.background='#fff'">
+          What do I do if my door arrives damaged?
+          <span style="font-size:1.2rem;color:var(--primary);flex-shrink:0;margin-left:16px;">+</span>
+        </summary>
+        <div style="padding:0 28px 24px;font-size:0.9rem;line-height:1.8;color:#5A3010;background:#FDF8F2;">
+          Inspect before the installer leaves. Call <a href="tel:18883667717" style="color:var(--primary);font-weight:700;">1-888-366-7717</a> within 5 calendar days to report delivery damage — do not wait. After that window, delivery damage is no longer eligible for coverage.
+        </div>
+      </details>
+
+      <details>
+        <summary style="padding:24px 28px;font-family:'Merriweather',serif;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:#1A0800;background:#fff;transition:0.2s;" onmouseover="this.style.background='#FDF8F2'" onmouseout="this.parentElement.open?this.style.background='#FDF8F2':this.style.background='#fff'">
+          Where can I buy MP Doors products?
+          <span style="font-size:1.2rem;color:var(--primary);flex-shrink:0;margin-left:16px;">+</span>
+        </summary>
+        <div style="padding:0 28px 24px;font-size:0.9rem;line-height:1.8;color:#5A3010;background:#FDF8F2;">
+          MP Doors products are available in store and online through one retailer. Use the Shop button anywhere on this site to go directly to the product listings.
+        </div>
+      </details>
+
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="/warranty-support/" class="button orange" style="display:inline-flex;">See All FAQs →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FINAL CTA
+═══════════════════════════════════════ -->
+<section class="comm-section" style="background:var(--grey-light);">
+  <div class="container">
+    <div class="pre-footer-wrap">
+      <div class="pre-footer-bg"></div>
+      <div class="pre-footer-content">
+        <h2 class="page-title white">Ready to Choose Your Door?</h2>
+        <p style="color:rgba(255,255,255,0.75);font-size:1rem;line-height:1.7;margin-bottom:32px;">Available in store and online.</p>
+        <div class="pre-footer-btn">
+          <a class="button orange" href="https://www.homedepot.com">Shop at The Home Depot →</a>
+        </div>
+        <p style="font-size:0.78rem;color:rgba(255,255,255,0.4);margin-top:20px;">MasterPiece Series · sold through one retailer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-content" style="grid-template-columns:1.5fr repeat(3, 1fr);">
+
+      <section class="company-info">
+        <div class="footer-logo">
+          <img src="assets/images/MPDoors_Logo.png" alt="MP Doors" style="height:36px;width:auto;">
+        </div>        
+        <p style="font-size:0.825rem;color:rgba(255,255,255,0.55);line-height:1.8;max-width:280px;">Composite patio and entry doors — MasterPiece Series.</p>
+      </section>
+
+      <div class="footer-col">
+        <h4>Patio Doors</h4>
+        <ul>
+          <li><a href="/patio-doors/hinged-full-lite/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Hinged Full Lite</a></li>
+          <li><a href="/patio-doors/full-lite-gliding/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Full Lite Gliding</a></li>
+          <li><a href="/patio-doors/impact-hinged/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Impact Hinged</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Entry Doors</h4>
+        <ul>
+          <li><a href="/entry-doors/oval-lite/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Oval Lite</a></li>
+          <li><a href="/entry-doors/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Modern Full Lite</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/why-composite/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Why Composite</a></li>
+          <li><a href="/warranty-support/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Warranty &amp; Support</a></li>
+          <li><a href="/warranty-support/#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Nan Ya Plastics Corporation USA. All rights reserved. MP Doors sold exclusively at The Home Depot.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+// ── AOS Init ──────────────────────────────
+AOS.init({ duration: 700, once: true, offset: 80 });
+
+// ── Sticky header ─────────────────────────
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 40);
+});
+
+// ── Swiper testimonials ───────────────────
+new Swiper('.testSwiper', {
+  loop: true,
+  autoplay: { delay: 6000, disableOnInteraction: false },
+  pagination: { el: '.test-swiper-pagination', clickable: true },
+  spaceBetween: 24,
+});
+
+// ── Hamburger menu (simple toggle) ────────
+document.querySelector('.hamburger').addEventListener('click', function() {
+  const nav = document.querySelector('.head-right');
+  if (nav) { nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex'; }
+});
+</script>
+</body>
+</html>
